@@ -50,6 +50,20 @@ make docker-image
 docker run --rm -p 8080:8080 twaiv/workout-analytics
 ```
 
+##### Docker Compose
+Apart from the above `docker build` and `docker run` commands. `docker compose` manifest file is also provided.
+
+To start as a detached suite
+```shell
+docker compose up -d
+```
+
+To tear down the suite
+```shell
+docker compose down
+```
+
+
 #### Testing
 There is a JSON file in `testdata` under the project directory for you to test. But the test is related to current date time.
 The test data is during 2023-11-04 to 2023-11-26. You might not get any analysis, if you test very late and set the number of weeks too small.
