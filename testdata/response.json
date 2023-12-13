@@ -1,0 +1,10 @@
+{
+  "medium_distance": 8000,
+  "medium_time": 1000,
+  "max_distance": 10000,
+  "max_time": 1000,
+  "medium_weekly_distance": 20000,
+  "medium_weekly_time": 2000,
+  "max_weekly_distance": 30000,
+  "max_weekly_time": 9000
+}
